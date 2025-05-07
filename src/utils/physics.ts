@@ -8,7 +8,7 @@ export function updatePlayerPhysics(player: PlayerType, isJetpackActive: boolean
   };
 
   // Physics constants
-  const gravity = -0.1;
+  const gravity = -0.002;
   const jetpackThrust = 0.005;
 
   // Apply physics
